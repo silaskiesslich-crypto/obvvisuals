@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "obvvisuals",
+  "version": "${version}",
+  "name": "OBV VISUALS",
+  "description": "PvP Visual Mod: Texturen, Pack Mixer, Profile und HUD.",
+  "authors": ["OBV"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/obvvisuals/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.obv.visuals.ObvVisuals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
